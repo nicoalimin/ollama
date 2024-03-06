@@ -52,7 +52,7 @@ COMMON_CMAKE_DEFS="-DCMAKE_POSITION_INDEPENDENT_CODE=on -DLLAMA_NATIVE=off -DLLA
 source $(dirname $0)/gen_common.sh
 init_vars
 git_module_setup
-apply_patches
+# apply_patches
 
 if [ -z "${OLLAMA_SKIP_CPU_GENERATE}" ]; then
     # Users building from source can tune the exact flags we pass to cmake for configuring

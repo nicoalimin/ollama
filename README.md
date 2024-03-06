@@ -215,6 +215,10 @@ go build .
 
 More detailed instructions can be found in the [developer guide](https://github.com/jmorganca/ollama/blob/main/docs/development.md)
 
+## Running local ollama
+
+docker build --platform="linux/amd64" . -t us-west1-docker.pkg.dev/project-410304/project-registry/ollama-base:1.0.0-amd64
+
 ### Running local builds
 
 Next, start the server:
